@@ -6,12 +6,17 @@ import { MapPin, Star, CheckCircle, ChevronRight } from "lucide-react";
 import { Metadata } from "next";
 
 // Bu veriler normalde bir API'den veya veritabanından gelir
-const cities: Record<string, string> = {
-  istanbul: "İstanbul",
-  ankara: "Ankara",
-  izmir: "İzmir",
-  bursa: "Bursa",
-  antalya: "Antalya",
+const cities: Record<string, { name: string; districts: string[] }> = {
+  istanbul: { name: "İstanbul", districts: ["Kadıköy", "Beşiktaş", "Şişli", "Üsküdar", "Bakırköy", "Ataşehir", "Maltepe", "Kartal", "Pendik", "Beylikdüzü"] },
+  ankara: { name: "Ankara", districts: ["Çankaya", "Yenimahalle", "Keçiören", "Etimesgut", "Sincan", "Gölbaşı", "Mamak"] },
+  izmir: { name: "İzmir", districts: ["Konak", "Karşıyaka", "Bornova", "Buca", "Çiğli", "Gaziemir", "Balçova"] },
+  bursa: { name: "Bursa", districts: ["Nilüfer", "Osmangazi", "Yıldırım", "Mudanya", "Gürsu"] },
+  antalya: { name: "Antalya", districts: ["Muratpaşa", "Konyaaltı", "Kepez", "Alanya", "Manavgat"] },
+  adana: { name: "Adana", districts: ["Seyhan", "Çukurova", "Sarıçam", "Yüreğir"] },
+  konya: { name: "Konya", districts: ["Selçuklu", "Meram", "Karatay"] },
+  kayseri: { name: "Kayseri", districts: ["Melikgazi", "Kocasinan", "Talas"] },
+  gaziantep: { name: "Gaziantep", districts: ["Şahinbey", "Şehitkamil"] },
+  kocaeli: { name: "Kocaeli", districts: ["İzmit", "Gebze", "Darıca", "Körfez"] },
 };
 
 const categories: Record<string, { title: string; description: string }> = {
@@ -24,7 +29,8 @@ const categories: Record<string, { title: string; description: string }> = {
 
 export async function generateMetadata({ params }: { params: Promise<{ city: string; category: string }> }): Promise<Metadata> {
   const { city, category } = await params;
-  const cityName = cities[city] || city;
+  const cityData = cities[city];
+  const cityName = cityData ? cityData.name : city;
   const catInfo = categories[category] || { title: category };
   
   return {
@@ -35,7 +41,9 @@ export async function generateMetadata({ params }: { params: Promise<{ city: str
 
 export default async function CityCategoryPage({ params }: { params: Promise<{ city: string; category: string }> }) {
   const { city, category } = await params;
-  const cityName = cities[city] || city;
+  const cityData = cities[city];
+  const cityName = cityData ? cityData.name : city;
+  const districts = cityData ? cityData.districts : [];
   const catInfo = categories[category] || { title: category, description: "Profesyonel hizmetler" };
 
   return (
@@ -106,9 +114,9 @@ export default async function CityCategoryPage({ params }: { params: Promise<{ c
                   Popüler İlçeler
                 </h3>
                 <ul className="space-y-2">
-                  {["Çankaya", "Kadıköy", "Konak", "Nilüfer", "Muratpaşa"].map(district => (
+                  {districts.slice(0, 10).map(district => (
                     <li key={district}>
-                      <Link href="/hizmet-al" className="text-gray-600 hover:text-primary flex items-center justify-between group">
+                      <Link href={`/hizmet-al?city=${cityName}&district=${district}`} className="text-gray-600 hover:text-primary flex items-center justify-between group">
                         <span>{cityName} {district}</span>
                         <ChevronRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                       </Link>

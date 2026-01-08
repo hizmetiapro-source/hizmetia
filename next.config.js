@@ -2,13 +2,6 @@
 const nextConfig = {
   allowedDevOrigins: ["*.preview.same-app.com"],
   images: {
-    unoptimized: true,
-    domains: [
-      "source.unsplash.com",
-      "images.unsplash.com",
-      "ext.same-assets.com",
-      "ugc.same-assets.com",
-    ],
     remotePatterns: [
       {
         protocol: "https",
@@ -31,7 +24,12 @@ const nextConfig = {
         pathname: "/**",
       },
     ],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    formats: ['image/webp'],
   },
+  compress: true,
+  poweredByHeader: false,
 };
 
 module.exports = nextConfig;

@@ -1,7 +1,12 @@
 [
-  { "id": "istanbul", "name": "İstanbul", "districts": ["Kadıköy", "Beşiktaş", "Şişli", "Üsküdar", "Bakırköy"] },
-  { "id": "ankara", "name": "Ankara", "districts": ["Çankaya", "Yenimahalle", "Keçiören", "Etimesgut"] },
-  { "id": "izmir", "name": "İzmir", "districts": ["Konak", "Karşıyaka", "Bornova", "Buca"] },
-  { "id": "bursa", "name": "Bursa", "districts": ["Nilüfer", "Osmangazi", "Yıldırım"] },
-  { "id": "antalya", "name": "Antalya", "districts": ["Muratpaşa", "Konyaaltı", "Kepez"] }
+  { "id": "istanbul", "name": "İstanbul", "districts": ["Kadıköy", "Beşiktaş", "Şişli", "Üsküdar", "Bakırköy", "Ataşehir", "Maltepe", "Kartal", "Pendik", "Beylikdüzü"] },
+  { "id": "ankara", "name": "Ankara", "districts": ["Çankaya", "Yenimahalle", "Keçiören", "Etimesgut", "Sincan", "Gölbaşı", "Mamak"] },
+  { "id": "izmir", "name": "İzmir", "districts": ["Konak", "Karşıyaka", "Bornova", "Buca", "Çiğli", "Gaziemir", "Balçova"] },
+  { "id": "bursa", "name": "Bursa", "districts": ["Nilüfer", "Osmangazi", "Yıldırım", "Mudanya", "Gürsu"] },
+  { "id": "antalya", "name": "Antalya", "districts": ["Muratpaşa", "Konyaaltı", "Kepez", "Alanya", "Manavgat"] },
+  { "id": "adana", "name": "Adana", "districts": ["Seyhan", "Çukurova", "Sarıçam", "Yüreğir"] },
+  { "id": "konya", "name": "Konya", "districts": ["Selçuklu", "Meram", "Karatay"] },
+  { "id": "kayseri", "name": "Kayseri", "districts": ["Melikgazi", "Kocasinan", "Talas"] },
+  { "id": "gaziantep", "name": "Gaziantep", "districts": ["Şahinbey", "Şehitkamil"] },
+  { "id": "kocaeli", "name": "Kocaeli", "districts": ["İzmit", "Gebze", "Darıca", "Körfez"] }
 ]
