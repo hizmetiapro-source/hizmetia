@@ -31,5 +31,93 @@
     "isActive": true,
     "featured": true,
     "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "kentsel-donusum",
+    "title": "Kentsel Dönüşüm",
+    "description": "Riskli yapı tespiti, yıkım ve modern bina inşaatı süreçlerinde uzman danışmanlık ve uygulama.",
+    "icon": "building",
+    "image": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=400&h=300&fit=crop",
+    "count": "1.234",
+    "isActive": true,
+    "featured": false,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "guclendirme",
+    "title": "Bina Güçlendirme",
+    "description": "Deprem güvenliği için kolon güçlendirme, karbon fiber uygulama ve yapısal iyileştirme hizmetleri.",
+    "icon": "shield",
+    "image": "https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?w=400&h=300&fit=crop",
+    "count": "856",
+    "isActive": true,
+    "featured": false,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "yapi-kontrol",
+    "title": "Yapı Kontrol ve Denetim",
+    "description": "İnşaat süreci denetimi, malzeme kalitesi kontrolü ve teknik müşavirlik hizmetleri.",
+    "icon": "hardhat",
+    "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop",
+    "count": "642",
+    "isActive": true,
+    "featured": false,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "apartman-yonetimi",
+    "title": "Apartman Yönetimi",
+    "description": "Profesyonel apartman yönetimi, aidat takibi, bina bakımı ve hukuki danışmanlık.",
+    "icon": "building",
+    "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=400&h=300&fit=crop",
+    "count": "2.150",
+    "isActive": true,
+    "featured": false,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "site-yonetimi",
+    "title": "Site Yönetimi",
+    "description": "Geniş kapsamlı site yönetimi, ortak alan işletmesi, güvenlik ve peyzaj koordinasyonu.",
+    "icon": "building",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=300&fit=crop",
+    "count": "1.420",
+    "isActive": true,
+    "featured": false,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "ozel-ders",
+    "title": "Özel Ders",
+    "description": "Matematik, İngilizce, Müzik ve daha birçok alanda uzman eğitmenlerden birebir özel dersler.",
+    "icon": "sparkles",
+    "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=300&fit=crop",
+    "count": "5.680",
+    "isActive": true,
+    "featured": false,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "guvenlik-hizmetleri",
+    "title": "Güvenlik Hizmetleri",
+    "description": "Profesyonel özel güvenlik personeli, site ve etkinlik güvenliği çözümleri.",
+    "icon": "shield",
+    "image": "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=400&h=300&fit=crop",
+    "count": "945",
+    "isActive": true,
+    "featured": false,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "guvenlik-sistemleri",
+    "title": "Güvenlik Sistemleri",
+    "description": "Kamera sistemleri, alarm, akıllı kilit ve geçiş kontrol sistemleri kurulum ve bakım.",
+    "icon": "camera",
+    "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+    "count": "1.870",
+    "isActive": true,
+    "featured": false,
+    "createdAt": "2024-01-01T00:00:00.000Z"
   }
 ]

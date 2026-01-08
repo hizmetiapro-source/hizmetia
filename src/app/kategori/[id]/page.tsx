@@ -89,9 +89,49 @@ const categoryData: Record<string, { title: string; description: string; image: 
     image: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=1200&h=400&fit=crop",
   },
   "guvenlik-sistemleri": {
-    title: "Güvenlik Sistemleri",
-    description: "Alarm sistemleri, kamera sistemleri, akıllı kilit sistemleri",
+    title: "Güvenlik Sistemleri ve Kamera Kurulumu",
+    description: "Ev ve iş yeri güvenliği için kamera sistemleri, alarm ve akıllı kilit çözümleri.",
     image: "https://images.unsplash.com/photo-1558002038-1055907df827?w=1200&h=400&fit=crop",
+  },
+  "ozel-ders": {
+    title: "Özel Ders ve Eğitmen Hizmetleri",
+    description: "Matematik, İngilizce ve sınav hazırlık için uzman öğretmenlerden birebir özel ders teklifleri alın.",
+    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&h=400&fit=crop",
+  },
+  "evden-eve-nakliyat": {
+    title: "Evden Eve Nakliyat ve Taşımacılık",
+    description: "Şehir içi ve şehirler arası sigortalı nakliyat hizmeti. Profesyonel taşıma ekiplerinden fiyat alın.",
+    image: "https://images.unsplash.com/photo-1600518464441-9154a4dea21b?w=1200&h=400&fit=crop",
+  },
+  "kentsel-donusum": {
+    title: "Kentsel Dönüşüm Danışmanlığı ve Uygulama",
+    description: "Riskli yapı tespiti ve kentsel dönüşüm projeleriniz için uzman mühendislik ve inşaat firmaları.",
+    image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=1200&h=400&fit=crop",
+  },
+  "guclendirme": {
+    title: "Bina Güçlendirme ve Deprem Güvenliği",
+    description: "Yapısal güçlendirme, kolon tamiri ve deprem dayanıklılık testleri için profesyonel hizmet.",
+    image: "https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?w=1200&h=400&fit=crop",
+  },
+  "apartman-yonetimi": {
+    title: "Profesyonel Apartman Yönetimi Hizmetleri",
+    description: "Bina yönetimi, aidat takibi ve temizlik hizmetleri için kurumsal yönetim firmaları.",
+    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&h=400&fit=crop",
+  },
+  "site-yonetimi": {
+    title: "Profesyonel Site Yönetimi ve İşletmeciliği",
+    description: "Geniş kapsamlı site yönetimi, güvenlik ve peyzaj hizmetleri için uzman firmalardan teklif alın.",
+    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&h=400&fit=crop",
+  },
+  "yapi-kontrol": {
+    title: "Yapı Kontrol ve Teknik Denetim",
+    description: "İnşaat denetimi, teknik müşavirlik ve yapı kalitesi kontrol hizmetleri.",
+    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1200&h=400&fit=crop",
+  },
+  "guvenlik-hizmetleri": {
+    title: "Özel Güvenlik ve Koruma Hizmetleri",
+    description: "Site, iş yeri ve etkinlikler için profesyonel özel güvenlik personeli hizmeti.",
+    image: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=1200&h=400&fit=crop",
   },
 };
 

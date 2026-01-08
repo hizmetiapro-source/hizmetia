@@ -32,6 +32,8 @@ const categories = [
   { id: "yapi-kontrol", name: "Yapı Kontrol" },
   { id: "guvenlik-hizmetleri", name: "Güvenlik Hizmetleri" },
   { id: "guvenlik-sistemleri", name: "Güvenlik Sistemleri" },
+  { id: "ozel-ders", name: "Özel Ders" },
+  { id: "evden-eve-nakliyat", name: "Evden Eve Nakliyat" },
 ];
 
 const steps = [
