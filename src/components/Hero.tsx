@@ -24,10 +24,10 @@ export default function Hero() {
           {/* Left Content */}
           <div className="space-y-6 z-10">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#402e47] leading-tight">
-              Güvenilir profesyoneller ile tanışmanın en kolay yolu
+              Ev Temizliği, Nakliyat ve Tadilat İçin Güvenilir Profesyoneller
             </h1>
             <p className="text-lg text-gray-600">
-              İhtiyacınızı tanımlayın, size uygun profesyonellerden teklifler alın
+              İhtiyacınız olan hizmeti tanımlayın, en iyi ustalardan ve profesyonellerden ücretsiz teklifler alın. Güvenilir hizmetin adresi Hizmetia.
             </p>
 
             {/* Search Form */}

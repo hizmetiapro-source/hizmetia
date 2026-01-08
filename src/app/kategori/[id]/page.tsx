@@ -39,18 +39,18 @@ export function generateStaticParams() {
 
 const categoryData: Record<string, { title: string; description: string; image: string }> = {
   "tesisat": {
-    title: "Tesisat",
-    description: "Su tesisatı, kalorifer, doğalgaz işleri için profesyonel ustalar",
+    title: "Tesisatçı ve Su Tesisatı Hizmetleri",
+    description: "Acil su tesisatçısı, kalorifer tamiri ve doğalgaz tesisatı işleri için en iyi ustalardan teklif alın.",
     image: "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=1200&h=400&fit=crop",
   },
   "tadilat": {
-    title: "Tadilat ve Renovasyon",
-    description: "Ev ve iş yeri tadilatı, yenileme projeleri",
+    title: "Ev Tadilatı ve Dekorasyon Hizmetleri",
+    description: "Komple ev tadilatı, mutfak yenileme ve banyo dekorasyonu projeleriniz için profesyonel ekipler.",
     image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&h=400&fit=crop",
   },
   "boya": {
-    title: "Boya ve Dekorasyon",
-    description: "İç ve dış cephe boya, dekoratif boya işleri",
+    title: "Boya Badana ve İç Cephe Boyama",
+    description: "Profesyonel boyacı ustaları ile evinizi yenileyin. İç ve dış cephe boya badana işleri için ücretsiz teklif alın.",
     image: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=1200&h=400&fit=crop",
   },
   "elektrik": {

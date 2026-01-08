@@ -30,11 +30,10 @@ export default function WhyUs() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-2xl md:text-4xl font-bold text-[#402e47] mb-4">
-              Neden Hizmetia Güvenilir Bir Tercih?
+              Neden Hizmetia'yı Tercih Etmelisiniz?
             </h2>
             <p className="text-gray-600 mb-8">
-              Büyük veya küçük her türlü iş için talebinizi Hizmetia'da oluşturun ve
-              işi yapabilecek onaylı profesyonellerden teklifler alın.
+              Ev temizliği, nakliyat, boya badana ve tadilat gibi her türlü hizmet ihtiyacınız için Hizmetia'da ücretsiz talep oluşturun. Onaylı profesyonellerden en uygun fiyat tekliflerini dakikalar içinde alın.
             </p>
 
             <div className="space-y-6">

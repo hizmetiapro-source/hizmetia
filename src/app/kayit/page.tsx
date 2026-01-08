@@ -63,8 +63,8 @@ export default function RegisterPage() {
 
         <Card className="shadow-xl border-0">
           <CardHeader className="text-center pb-2">
-            <CardTitle className="text-2xl text-[#402e47]">Hesap Oluşturun</CardTitle>
-            <CardDescription>Ücretsiz kayıt olun ve hizmet almaya başlayın</CardDescription>
+            <CardTitle className="text-2xl text-[#402e47]">Hizmetia'ya Ücretsiz Kayıt Olun</CardTitle>
+            <CardDescription>Hemen hesap oluşturun, ev temizliği, nakliyat ve tadilat gibi hizmetler için en iyi teklifleri almaya başlayın.</CardDescription>
           </CardHeader>
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-4">
