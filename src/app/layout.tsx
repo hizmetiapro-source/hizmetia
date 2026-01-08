@@ -36,6 +36,12 @@ export default function RootLayout({
   return (
     <html lang="tr" className={`${geistSans.variable} ${geistMono.variable}`}>
       <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#402e47" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="Hizmetia" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
         <Script
           crossOrigin="anonymous"
           src="//unpkg.com/same-runtime/dist/index.global.js"
