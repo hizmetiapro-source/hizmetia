@@ -24,4 +24,20 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <!-- Şehir Bazlı SEO Sayfaları -->
+  <url>
+    <loc>https://hizmetia.org/hizmet/istanbul/ev-temizligi</loc>
+    <lastmod>2026-01-08</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hizmetia.org/hizmet/ankara/evden-eve-nakliyat</loc>
+    <lastmod>2026-01-08</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hizmetia.org/hizmet/izmir/tadilat</loc>
+    <lastmod>2026-01-08</lastmod>
+    <priority>0.9</priority>
+  </url>
 </urlset>

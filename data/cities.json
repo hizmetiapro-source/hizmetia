@@ -1,0 +1,7 @@
+[
+  { "id": "istanbul", "name": "İstanbul", "districts": ["Kadıköy", "Beşiktaş", "Şişli", "Üsküdar", "Bakırköy"] },
+  { "id": "ankara", "name": "Ankara", "districts": ["Çankaya", "Yenimahalle", "Keçiören", "Etimesgut"] },
+  { "id": "izmir", "name": "İzmir", "districts": ["Konak", "Karşıyaka", "Bornova", "Buca"] },
+  { "id": "bursa", "name": "Bursa", "districts": ["Nilüfer", "Osmangazi", "Yıldırım"] },
+  { "id": "antalya", "name": "Antalya", "districts": ["Muratpaşa", "Konyaaltı", "Kepez"] }
+]
